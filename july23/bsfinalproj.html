@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<title>Bootstrap</title>
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	
+	<style>
+	body {
+		font-family: candara;
+	}
+	#wrapper {
+	}
+	#mainlogo {
+		padding-left:50px;
+	}
+	#nav ul,li {
+		display:inline;
+		margin-right:75px;
+	}
+	#nav {
+		padding-top:30px;
+	}
+	.nav1a {
+		text-decoration:none;
+		font-size:18px;
+		font-weight:bold;
+		color:black;
+	}
+	#loginsignup {
+		display:inline;
+	}
+	#lockpic #lockpicid #log  {
+		float:left;
+	}
+	#main {
+		background-image: url(images/background.png);
+		background-repeat: no-repeat;
+		background-size: 100%;
+		height:1070px;
+	}
+	#right {
+		background-color:green;
+	}
+	#footer {
+		background-color:purple;
+	}
+	</style>
+	
+</head>
+
+<body>
+
+<div id="wrapper">
+	
+	<div class="row">
+		<div class="col-md-4" id="mainlogo">
+			<a href="bsfinalproj.html"><img id="logo1" src="images/logo.png" alt="confirmed-logo"><a/>
+		</div>
+		<div class="col-md-6" id="nav">
+			<ul>
+				<li><a class="nav1a" href="how.html" target="0">how it works</a></li>
+				<li><a class="nav1a" href="#" target="0">security</a></li>
+				<li><a class="nav1a" href="#" target="0">connect</a></li>
+				<li><a class="nav1a" href="#" target="0">blog</a></li>
+			</ul>
+		</div>
+		<div class="col-md-2" id="loginsignup">
+			<div class="col-md-4" id="login">
+					<a href="#">
+						<div id="lockpic">
+							<img id="lockpicid" src="images/lock.png" alt="lock">
+							<p id="log">log-in</p>
+						</div>
+					</a>
+			</div>			
+			<div class="col-md-6" id="signup">		
+					<div id="signup">
+						<a href="signup.html">sign-up</a>
+					</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="row">
+		<div class="col-md-12" id="main">
+			<h3 id="line1">Take control of your financial<br>transactions and protect your<br>personal information</h3>
+				<h2 id="line2">Let us do the worrying</h2>
+				<div id="signupfree"><a id="signfree" href="signup.html" target="0">sign-up free</a>
+		</div>
+	</div>
+	
+	<div class="row">
+		
+		<div class="col-md-8" id="left">
+			<h1> Left </h1>
+		</div>
+		
+		<div class="col-md-4" id="right">
+			<h1> Right </h1>
+		</div>
+	</div>
+	
+	<div class="row">
+		<div class="col-md-12" id="footer">
+			<h1> Footer </h1>
+		</div>
+	</div>
+
+</div>		
+
+</html>
